@@ -1,0 +1,269 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+.navbar {
+	position: fixed;
+	height: 50px;
+	overflow: hidden;
+	top: 0;
+	display: flex;
+	align-items: center;
+	background: #5d4954 ;
+	width: 100%;
+	}
+
+
+.logo{
+	color: rgb(226, 226, 226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+.menu{
+	position: absolute;
+	right: 20px;
+}
+.menu a{
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+	font-weight: 700;
+	margin-left: 20px;
+	transition: color 0.3s;
+	text-transform: uppercase;
+}
+.menu a:hover{
+	color:#fff;
+	font-size:21px;
+	transition: .5s;
+}
+
+
+.body {
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/wallpaper.jpg");
+	
+	background-size:cover;
+	background-position: center;
+	position: relative;
+	height: 835px;
+	margin-top: 50px;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 29%;
+	text-align: center;
+}
+.welcome-text h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h5{
+	text-align: center;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 30px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
+}
+.about{
+	
+	margin: 0 auto;
+	background: #f9f9f9;
+	
+	padding: 25px;
+}
+.about-body{
+	max-width: 900px;
+	margin: 0 auto;
+
+	padding: 25px;
+}
+.about-body h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(43, 41, 36);
+	font-weight: bold;
+}
+.about-body h4{
+	margin-top: 70px;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(43, 41, 36);
+}
+.parallax{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/cruze.jpg');
+	background-position: center center;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	height: 430px;
+	-webkit-background-size:cover;
+}
+ .service{
+ 	margin: 0 auto;
+	background: #f9f9f9;
+	
+	padding: 25px;
+ }
+ .gallery{
+ 	max-width: 1000px;
+	margin: 0 auto;
+background-color: #f9f9f9;
+	padding: 25px;
+	margin-top: 10px;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5) ;
+display: flex;
+
+	}
+.gallery .img{
+
+flex:0 0 150px;
+		max-width: 100%;
+	}
+	.content{
+		padding-left: 20px;
+	}
+.service h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(43, 41, 36);
+	font-weight: bold;
+}
+.content h2{
+	margin: 0;
+	padding-left: 10px;
+	font-family: 'Playfair Display', serif;
+	color: rgb(43, 41, 36);
+	font-weight: bold;
+	font-size: 25px;
+}
+.content p{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+	color: rgb(43, 41, 36);
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+.parallax2{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/camaro.jpg');
+	background-position: center center;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	height: 430px;
+	-webkit-background-size:cover;
+}
+.contact-form {
+	background: rgba(0,0,0, .6);
+	color: white;
+	margin-top: 50px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px grey;
+}
+hr{
+	background: white;
+}
+.contact {
+	background: url("images/wallpaperroad.jpg");
+	
+	height: 100vh;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+	height: 900px;
+}
+.map {
+	margin-top: 20px;
+	margin-left: 350px;
+}
+.footer{
+	margin: 0 auto;
+	background: #5d4954;
+	
+	height: 80px;
+}
+.footertext{
+color: rgb(226, 226, 226);
+	float: left;
+	width: 300px;
+}
+.media{
+	float: right;
+	
+
+}
+.media li{
+	list-style: none;
+	margin: 5px 15px;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px 10px;
+	color: rgb(226, 226, 226);
+	border: 2px solid rgb(226, 226, 226);
+	border-radius: 50%;
+	transition: .5s;
+}
+.media li:hover{
+	color: rgb(226, 226, 226);
+	border: 2px rgb(226, 226, 226) solid;
+	padding: 13px 13px;
+	font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+.navbar{
+	overflow: visible;
+}
+.menu{
+	width: 100%;
+	right: 0;
+	top: 0;
+	background: #5d4954 ;
+	overflow: hidden;
+	
+}
+.menu a{
+	display: block;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+
+}
+
+.body {
+	margin-top: 175px;
+}
+
+
+
+
+}
+
